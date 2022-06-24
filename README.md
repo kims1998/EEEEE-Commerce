@@ -84,7 +84,6 @@ Your database should contain the following four models, including the requiremen
     ///////////////////////////////
     ///////////////////////////////
     ///////////////////////////////
-
 * `Product`
 
   * `id`
@@ -134,14 +133,10 @@ Your database should contain the following four models, including the requiremen
 * `Tag`
 
   * `id`
-  
-    * Integer.
-  
+    <!-- * Integer. -->
     * Doesn't allow null values.
-  
-    * Set as primary key.
-  
-    * Uses auto increment.
+    <!-- * Set as primary key.
+    * Uses auto increment. -->
 
   * `tag_name`
   
@@ -174,7 +169,6 @@ Your database should contain the following four models, including the requiremen
     * Integer.
 
     * References the `Tag` model's `id`.
-
 ### Associations
 
 You'll need to execute association methods on your Sequelize models to create the following relationships between them:
@@ -262,7 +256,6 @@ This homework is graded based on the following criteria:
 * Repository contains multiple descriptive commit messages.
 
 * Repository contains quality readme with description and a link to a walkthrough video.
-
 ## Review
 
 You are required to submit BOTH of the following for review:
